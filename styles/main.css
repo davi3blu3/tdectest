@@ -7,6 +7,17 @@
     width: 200px;
 }
 
+.navbar__link {
+    display: inline-block;
+    color: white;
+    margin: 0 10px;
+}
+
+.navbar__link a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .footer {
     background-color: grey;
 }
@@ -17,15 +28,4 @@
 
 .footer__logo {
     width: 200px;
-}
-
-.navbar__link {
-    display: inline-block;
-    color: white;
-    margin: 0 10px;
-}
-
-.navbar__link a {
-    text-decoration: none;
-    color: inherit;
 }
