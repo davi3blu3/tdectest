@@ -60,16 +60,19 @@ hr {
  */
 
 .footer {
-    background-color: grey;
+    background: linear-gradient(#464646, #525252);
     clear: both;
+    padding: 26px 0 42px 0;
 }
 
 .footer p {
-    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ccc;
 }
 
 .footer__logo {
-    width: 200px;
+    width: 160px;
 }
 
 /*
