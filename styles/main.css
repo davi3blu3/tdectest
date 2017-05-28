@@ -17,7 +17,7 @@ body {
     border-top: 6px solid #6c7071;
 }
 
-hr {
+.header__btmBorder--red {
     height: 10px;
     width: 100%;
     background-color: #d72d1c;
@@ -107,9 +107,36 @@ hr {
  *  Sidebar
  */
 
- .sidebar__headers h2, h3{
+.sidebar {
+    color: #555;
+}
+
+.sidebar__headers h2, h3{
      font-family: 'Source Sans Pro', sans-serif;
- }
+}
+
+.sidebar__articleDate {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.sidebar__articleTitle {
+    margin: 0;
+}
+
+.sidebar__articleLink {
+    margin: 10px 0;
+}
+
+.sidebar__articleLink a {
+    text-decoration: none;
+    color: #005c99;
+    font-size: 12px;
+}
+
+.sidebar hr {
+    border: 1px solid #ddd;
+}
 
 /*
  *  Article
