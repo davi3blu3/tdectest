@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -62,12 +62,18 @@ body {
     margin-left: 0;
 }
 
-.main__col--onesixth {
-    width: 15.33%;
+.main__col--onefifth {
+    width: 18.72%;
 }
 
-.main__col--fivesixths {
-    width: 83.06%;
+.main__col--fourfifths {
+    width: 79.68%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.main__col {  margin: 1% 0 1% 0%; }
+	.main__col--onefifth, .main__col--fourfifths { width: 100%; }
 }
 
 /*
