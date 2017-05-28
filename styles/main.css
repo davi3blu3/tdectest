@@ -13,7 +13,7 @@ body {
  */
 
 .header {
-    background: linear-gradient(#395585, #32456d);
+    background: linear-gradient(#395584, #2d3d5e);
     border-top: 6px solid #6c7071;
 }
 
@@ -23,6 +23,7 @@ hr {
     background-color: #d72d1c;
     border-top: 1px solid #ed6965;
     border-bottom: none;
+    margin-top: -1px;
 }
 
 .header__logo {
@@ -30,15 +31,28 @@ hr {
     margin: 26px 0;
 }
 
+.navbar__list {
+    margin: 0 0 0 -26px; /* negative left margin aligns first link with rest of page */
+    padding-left: 0;
+}
+
 .navbar__link {
     display: inline-block;
-    color: white;
+    padding: 8px 16px;
     margin: 0 10px;
+}
+
+.navbar__link--active {
+    background-color: #d72d1c;
+    border: 1px solid #ed6965;
+    border-bottom: none;
 }
 
 .navbar__link a {
     text-decoration: none;
-    color: inherit;
+    font-weight: 300;
+    font-size: 13px;
+    color: white;
 }
 
 /*
