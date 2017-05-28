@@ -1,6 +1,18 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*
+ *  Header
+ */
 
 .header {
-    background-color: blue;
+    background-color: darkblue;
 }
 
 .header__logo {
@@ -18,8 +30,13 @@
     color: inherit;
 }
 
+/*
+ *  Footer
+ */
+
 .footer {
     background-color: grey;
+    clear: both;
 }
 
 .footer p {
@@ -28,4 +45,39 @@
 
 .footer__logo {
     width: 200px;
+}
+
+/*
+ *  Custom Grid
+ */
+
+.main__col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.main__col:first-child {
+    margin-left: 0;
+}
+
+.main__col--onesixth {
+    width: 15.33%;
+}
+
+.main__col--fivesixths {
+    width: 83.06%;
+}
+
+/*
+ *  Article
+ */
+
+.article__imageBorder {
+    border: solid lightslategray 1px;
+    padding: 4px;
+}
+
+.article__image {
+     width: 100%;
 }
