@@ -120,11 +120,11 @@ body {
     margin: 40px 0 30px 0;
 }
 
-.sidebar__section h2, h3{
+.sidebar__section h2{
     margin: 0;
 }
 
-.sidebar__section h2, h3{
+.sidebar__section h2{
      font-family: 'Source Sans Pro', sans-serif;
 
 }
@@ -151,6 +151,16 @@ body {
 
 .sidebar hr {
     border: 1px solid #ddd;
+}
+
+.sidebar__tagList {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar__tagList a {
+    text-decoration: none;
+    color: #005c99;
 }
 
 /*
