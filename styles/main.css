@@ -61,7 +61,6 @@ body {
 
 .footer {
     background: linear-gradient(#464646, #525252);
-    clear: both;
     padding: 26px 0 42px 0;
 }
 
@@ -95,6 +94,12 @@ body {
 
 .main__col--fourfifths {
     width: 79.68%;
+}
+
+.main__spacer {
+    /* clears floats from content grid and provides whitespace before footer */
+    height: 300px;
+    clear: both;
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
@@ -152,6 +157,11 @@ body {
  *  Article
  */
 
+.article {
+    color: #333;
+    font-weight: 300;
+}
+
 .article__imageBorder {
     border: 1px solid #eaeaea;
     padding: 8px;
@@ -169,11 +179,21 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 900;
     font-size: 46px;
-    color: #333;
+    margin: 26px 0;
+}
+
+.article__subheader {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.article p {
+    margin-bottom: 26px;
 }
 
 .article__widgetBox {
-    background-color: #ddd;
-    border: solid 1px #aaa;
-    padding: 20px 10px;
+    background-color: #eee;
+    border: solid 1px #ccc;
+    padding: 26px 20px;
 }
