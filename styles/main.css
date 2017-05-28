@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -80,4 +81,11 @@ body {
 
 .article__image {
      width: 100%;
+}
+
+.article__header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 46px;
+    color: #333;
 }
