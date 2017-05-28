@@ -71,6 +71,14 @@ body {
 }
 
 /*
+ *  Sidebar
+ */
+
+ .sidebar__headers h2, h3{
+     font-family: 'Source Sans Pro', sans-serif;
+ }
+
+/*
  *  Article
  */
 
@@ -88,4 +96,10 @@ body {
     font-weight: 900;
     font-size: 46px;
     color: #333;
+}
+
+.article__widgetBox {
+    background-color: #ddd;
+    border: solid 1px #aaa;
+    padding: 20px 10px;
 }
