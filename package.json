@@ -9,6 +9,7 @@
   "author": "davi3blu3",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "normalize.css": "^7.0.0"
   }
 }
